@@ -3,18 +3,15 @@ import Link from "next/link"
 import Logo from "@/components/Logo/Logo"
 
 export default function NavBar() {
-    return <section className={classes.navbar_section}>
+    return <nav className={classes.navbar_container}>
+        <div className={classes.brandLogo}>
         <Logo />
-        <ul>
-            <li>
-                <Link href="/">Home</Link>
-            </li>
-            <li>
-                <Link href="/">Home</Link>
-            </li>
-            <li>
-                <Link href="/">Home</Link>
-            </li>
-        </ul>
-    </section>
+        </div>
+        <div className={classes.brandName}>
+            <a>Marcenaria Nova Estrela</a>
+            <p>Móveis sob medida</p>
+        </div>
+        <div>
+        </div>
+    </nav>
 }

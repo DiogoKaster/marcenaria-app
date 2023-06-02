@@ -1,3 +1,4 @@
+"use client"
 import "@/app/assets/css/globals.scss"
 import { Metadata } from 'next';
 import NavBar from '@/components/NavBar/NavBar';
