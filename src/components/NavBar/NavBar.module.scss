@@ -1,5 +1,25 @@
-$bg-color: transparent;
+$navbar-bg-color: transparent;
 
-.navbar_section {
+.navbar_container {
     background-color: red;
+    display: flex;
+    justify-content:space-between;
+}
+
+.brandLogo {
+    margin: auto 0;
+}
+
+.navbar_nav {
+    display: flex;
+    list-style-type: none;
+
+    li {
+        margin: auto;
+    }
+}
+
+.brandName {
+    text-align: center;
+    font-size: 2rem;
 }
