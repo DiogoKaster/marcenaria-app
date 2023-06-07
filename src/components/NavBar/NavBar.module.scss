@@ -1,9 +1,16 @@
 $navbar-bg-color: transparent;
 
 .navbar_container {
-    background-color: red;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    color: #000;
     display: flex;
     justify-content:space-between;
+
+    a {
+        color: #000;
+    }
 }
 
 .brandLogo {
@@ -13,10 +20,6 @@ $navbar-bg-color: transparent;
 .navbar_nav {
     display: flex;
     list-style-type: none;
-
-    li {
-        margin: auto;
-    }
 }
 
 .brandName {

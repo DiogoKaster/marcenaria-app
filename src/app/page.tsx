@@ -1,3 +1,11 @@
+'use client'
+import classes from './page.module.scss'
+
 export default function Page() {
-	return <h1>Hello, Home page!</h1>
+
+	return (
+		<section className={classes.main_section}>
+		</section>
+	)
 }
+

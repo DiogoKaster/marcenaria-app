@@ -1,0 +1,30 @@
+.main_section {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: changeImg 10s ease-in-out infinite;
+}
+
+
+@keyframes changeImg {
+    0% {
+        background-image: url('../../public/images/work/image.jpg');
+    }
+    20% {
+        background-image: url('../../public/images/work/image1.jpg');
+    }
+    40% {
+        background-image: url('../../public/images/work/image2.jpg');
+    }
+    60% {
+        background-image: url('../../public/images/work/image3.jpg');
+    }
+    80% {
+        background-image: url('../../public/images/work/image4.jpg');
+    }
+    100% {
+        background-image: url('../../public/images/work/image5.jpg');
+    }
+}
