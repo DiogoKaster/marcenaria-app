@@ -1,11 +1,7 @@
-'use client'
-import classes from './page.module.scss'
-
 export default function Page() {
 
 	return (
-		<section className={classes.main_section}>
-		</section>
+		<h1 style={{height: 1000}}>Hello World!</h1>
 	)
 }
 
