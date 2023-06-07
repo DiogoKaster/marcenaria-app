@@ -1,25 +1,37 @@
 $navbar-bg-color: transparent;
 
 .navbar_container {
-    background-color: red;
-    display: flex;
-    justify-content:space-between;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  width: 100%;
+  padding: 1rem 2rem;
+  position: fixed;
+  color: black;
+}
+.navbar_bg {
+  background: white;
+  position: fixed;
+  width: 100%;
+  height: 7rem;
+  top: 0;
 }
 
 .brandLogo {
-    margin: auto 0;
+  margin: auto 0;
 }
 
 .navbar_nav {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 
-    li {
-        margin: auto;
-    }
+  li {
+    margin: auto;
+  }
 }
 
 .brandName {
-    text-align: center;
-    font-size: 2rem;
+  text-align: center;
+  font-size: 2rem;
 }
