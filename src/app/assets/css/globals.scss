@@ -33,6 +33,10 @@ body {
 	}
 }
 
+body::-webkit-scrollbar {
+	display: none;
+}
+
 span,
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -49,4 +53,8 @@ h4,
 h5,
 h6 {
 	font-family: Poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
