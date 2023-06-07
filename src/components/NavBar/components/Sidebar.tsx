@@ -4,6 +4,9 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 import classes from './Sidebar.module.scss'
 import Navigation from './Navigation'
+import Image from 'next/image'
+import closeIcon from '../../../../public/images/LineMdCloseToMenuAltTransition.svg'
+import closeIconTrans from '../../../../public/images/LineMdMenuToCloseAltTransition.svg'
 
 const variants = {
 	open: { opacity: 1, x: 0 },
@@ -28,9 +31,17 @@ export default function Sidebar() {
 				className={classes.toggle}
 				onClick={() => setShow((show) => !show)}
 				whileHover={{ scale: 1.1 }}
-				whileTap={{ scale: 0.9 }}
 			>
-				Toggle Button
+				{show ? <Image 
+					priority
+					src={closeIconTrans}
+					alt='Close Sidebar'
+				/> : 
+					<Image 
+						priority
+						src={closeIcon}
+						alt='Close Sidebar'
+					/>}
 			</motion.button>
 		</>
 	)

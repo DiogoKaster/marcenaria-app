@@ -27,6 +27,14 @@ body {
 	background-color: var(--background-primary-dark);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.6rem;
+
+	::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 span,
@@ -45,4 +53,8 @@ h4,
 h5,
 h6 {
 	font-family: Poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
